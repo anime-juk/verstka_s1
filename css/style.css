@@ -1,0 +1,72 @@
+.g_line{
+    height: 2px;
+}
+.brand-logo{
+    margin-left: 20px;
+}
+.head-nav-el{
+    font-size: 20px;
+    border-radius: 3%;
+}
+form{
+    width: 80%;
+    margin: 5% 10%;
+}
+.search{
+    position: relative;
+    top:-8px;
+}
+
+.mos{
+    height: 300px;
+    background-image:url(../Moscow_Rivers_Russia_502334.jpg);
+    background-size:cover;
+    color:white;
+    font-size: 2em;
+}
+.st{
+    height: 300px;
+    background-image:url(../s1200.webp);
+    background-size:cover;
+    color:white;
+    font-size: 2em;
+}
+.foto{
+    margin-left: 5%;
+    width: 90%
+}
+.gid-el{
+    height: 20vh;
+    margin-bottom: 5%;
+}
+.gid-group{
+    width: 90%;
+    margin-left: 5%;
+}
+.footer{
+    color:white;
+    justify-content: flex-end;
+    align-items:center;
+    display:flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 50px;
+}
+.footer-el{
+    margin-left:10%;
+    margin-right: 5%;
+}
+@media (max-width:600px){
+    .gid-el{
+        height: 40vh;
+        margin-bottom: 5%;
+    }
+}
+@media (min-width:601px) and (max-width:992px){
+    .gid-el{
+        height: 35vh;
+        margin-bottom: 5%;
+    }
+}
